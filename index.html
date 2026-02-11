@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio of a Data Analyst & Accountant">
+    <title>Professional Portfolio | Data Analyst & Accountant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">📊</span>
+                <a href="#home">Portfolio</a>
+            </div>
+            <div class="hamburger" aria-label="Toggle navigation menu" role="button" tabindex="0">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <!-- Dark mode toggle -->
+            <button id="dark-mode-toggle" class="dark-toggle" aria-label="Toggle dark mode" aria-pressed="false" title="Toggle dark mode">
+                <span class="toggle-icon">🌙</span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title fade-in">Welcome to My Portfolio</h1>
+            <h2 class="hero-subtitle fade-in" style="animation-delay: 0.2s;">Data Analyst & Accountant</h2>
+            <p class="hero-tagline fade-in" style="animation-delay: 0.4s;">
+                Transforming data into insights | Mastering financial narratives
+            </p>
+            <div class="hero-buttons fade-in" style="animation-delay: 0.6s;">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+        <div class="hero-background"></div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text fade-in-on-scroll">
+                    <p>
+                        I am a passionate Data Analyst and Accountant with a deep love for uncovering patterns in data 
+                        and telling compelling stories through numbers. With expertise in financial analysis, data visualization, 
+                        and business intelligence, I help organizations make informed decisions based on solid data insights.
+                    </p>
+                    <p>
+                        My background combines the analytical rigor of accounting with the forward-thinking approach of modern 
+                        data science. I excel at translating complex financial statements and datasets into clear, actionable insights 
+                        that drive business growth and operational efficiency.
+                    </p>
+                    <p>
+                        When I'm not working with spreadsheets and databases, I enjoy exploring new data visualization techniques, 
+                        staying updated on industry trends, and mentoring aspiring analysts. I believe that data, when properly 
+                        analyzed and presented, is one of the most powerful assets in today's business world.
+                    </p>
+                </div>
+                <div class="about-highlights fade-in-on-scroll" style="animation-delay: 0.2s;">
+                    <div class="highlight-card">
+                        <div class="highlight-icon">📈</div>
+                        <h3>Data Analysis</h3>
+                        <p>Extracting insights from complex datasets</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon">💰</div>
+                        <h3>Financial Expertise</h3>
+                        <p>Deep knowledge of accounting principles</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon">📊</div>
+                        <h3>Visualization</h3>
+                        <p>Creating compelling visual narratives</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <!-- Technical Skills -->
+                <div class="skill-category fade-in-on-scroll">
+                    <h3>Languages & Tools</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Excel</span>
+                            <span class="skill-level">Advanced</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">SQL</span>
+                            <span class="skill-level">Advanced</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Python</span>
+                            <span class="skill-level">Proficient</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Visualization Tools -->
+                <div class="skill-category fade-in-on-scroll" style="animation-delay: 0.1s;">
+                    <h3>Visualization & BI</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Tableau</span>
+                            <span class="skill-level">Advanced</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Power BI</span>
+                            <span class="skill-level">Advanced</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 88%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Google Analytics</span>
+                            <span class="skill-level">Proficient</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Finance & Accounting -->
+                <div class="skill-category fade-in-on-scroll" style="animation-delay: 0.2s;">
+                    <h3>Finance & Accounting</h3>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Financial Modeling</span>
+                            <span class="skill-level">Advanced</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 92%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Financial Analysis</span>
+                            <span class="skill-level">Advanced</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 93%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Accounting Principles</span>
+                            <span class="skill-level">Advanced</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 94%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience & CV Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience-content fade-in-on-scroll">
+                <p class="section-intro">
+                    Download my comprehensive CV to learn more about my professional background, 
+                    certifications, and detailed work experience.
+                </p>
+                <a href="./cv.pdf" class="btn btn-primary" download aria-label="Download CV">
+                    📥 Download My CV
+                </a>
+            </div>
+
+            <!-- Timeline of Experience -->
+            <div class="timeline fade-in-on-scroll" style="animation-delay: 0.2s;">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Senior Data Analyst</h3>
+                        <p class="timeline-date">2022 - Present</p>
+                        <p>Led data analysis initiatives, developed dashboards, and provided strategic insights to stakeholders.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Financial Analyst</h3>
+                        <p class="timeline-date">2020 - 2022</p>
+                        <p>Conducted financial analysis, budgeting, and forecasting for multiple departments.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Accountant</h3>
+                        <p class="timeline-date">2018 - 2020</p>
+                        <p>Managed financial records, prepared reports, and ensured compliance with accounting standards.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <article class="project-card fade-in-on-scroll">
+                    <div class="project-image">📊</div>
+                    <h3>Sales Performance Dashboard</h3>
+                    <p>
+                        Interactive Tableau dashboard analyzing sales trends, regional performance, 
+                        and customer behavior across multiple years.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Tableau</span>
+                        <span class="tag">SQL</span>
+                        <span class="tag">Analytics</span>
+                    </div>
+                </article>
+
+                <article class="project-card fade-in-on-scroll" style="animation-delay: 0.1s;">
+                    <div class="project-image">💹</div>
+                    <h3>Financial Forecast Model</h3>
+                    <p>
+                        Comprehensive financial modeling and forecasting tool using advanced Excel techniques 
+                        for budget planning and scenario analysis.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Excel</span>
+                        <span class="tag">Financial Modeling</span>
+                        <span class="tag">Forecasting</span>
+                    </div>
+                </article>
+
+                <article class="project-card fade-in-on-scroll" style="animation-delay: 0.2s;">
+                    <div class="project-image">🔍</div>
+                    <h3>Customer Analytics Study</h3>
+                    <p>
+                        Data-driven analysis of customer segments, lifetime value, and churn prediction 
+                        using Python and advanced statistical methods.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Analytics</span>
+                        <span class="tag">Segmentation</span>
+                    </div>
+                </article>
+
+                <article class="project-card fade-in-on-scroll" style="animation-delay: 0.3s;">
+                    <div class="project-image">📈</div>
+                    <h3>Business Intelligence Suite</h3>
+                    <p>
+                        End-to-end BI solution with Power BI dashboards, automated reporting, 
+                        and real-time KPI monitoring.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Power BI</span>
+                        <span class="tag">Automation</span>
+                        <span class="tag">KPI</span>
+                    </div>
+                </article>
+
+                <article class="project-card fade-in-on-scroll" style="animation-delay: 0.4s;">
+                    <div class="project-image">💰</div>
+                    <h3>Cost Optimization Analysis</h3>
+                    <p>
+                        Comprehensive audit and analysis identifying cost reduction opportunities 
+                        yielding significant operational savings.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Analysis</span>
+                        <span class="tag">Accounting</span>
+                        <span class="tag">Optimization</span>
+                    </div>
+                </article>
+
+                <article class="project-card fade-in-on-scroll" style="animation-delay: 0.5s;">
+                    <div class="project-image">📋</div>
+                    <h3>Compliance Reporting System</h3>
+                    <p>
+                        Automated regulatory compliance reporting system ensuring accuracy and 
+                        timeliness in financial statement preparation.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Automation</span>
+                        <span class="tag">Compliance</span>
+                        <span class="tag">Reporting</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info fade-in-on-scroll">
+                    <h3>Let's Connect</h3>
+                    <p>
+                        I'm always interested in hearing about interesting projects and opportunities. 
+                        Feel free to reach out!
+                    </p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <span class="method-icon">✉️</span>
+                            <a href="mailto:aishatmayaki14@gmail.com">aishatmayaki14@gmail.com</a>
+                        </div>
+                        <div class="contact-method">
+                            <span class="method-icon">📱</span>
+                            <a href="tel:08107366100">08107366100</a>
+                        </div>
+                        <div class="contact-method">
+                            <span class="method-icon">📍</span>
+                            <p>Lagos, Nigeria</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form fade-in-on-scroll" style="animation-delay: 0.2s;">
+                    <div class="form-group">
+                        <label for="name">Name *</label>
+                        <input type="text" id="name" name="name" required aria-label="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required aria-label="Your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject *</label>
+                        <input type="text" id="subject" name="subject" required aria-label="Message subject">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="5" required aria-label="Your message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+
+            <!-- Social Links -->
+            <div class="social-links fade-in-on-scroll" style="animation-delay: 0.4s;">
+                <h3>Follow Me</h3>
+                <div class="social-icons">
+                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <span class="social-icon">in</span>
+                    </a>
+                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <span class="social-icon">gh</span>
+                    </a>
+                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                        <span class="social-icon">𝕏</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Professional Portfolio. All rights reserved.</p>
+            <p>Designed with care | Built with HTML, CSS, and JavaScript</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
